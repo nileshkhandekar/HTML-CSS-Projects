@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+}
+
+.logo{
+    margin-left: 5vw;
+    font-size: 1.7rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* font-size: 1.2rem; */
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.list2{
+    margin-right: 80px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.main{
+    margin-left: 8vw;
+    margin-top: 10vh;
+    /* background-image: url(img2.jpg);
+    background-repeat: repeat-y; */
+    height: 85vh;
+}
+
+img{
+    width: 700px;
+    float:right;
+    margin-right: 8vw;
+
+}
+
+.title{
+    font-size: 4rem;
+    margin-bottom: 5vh;
+}
+
+button{
+    margin-top: 5vh;
+    width: 150px;
+    height: 50px;
+    margin-top: 10vh;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+    /* font-size: 0.7rem; */
+    background-color: rgb(24, 22, 22);
+    height: 60vh;
+}
+
+.div{
+    margin-top: 20vh;
+    color: rgb(40, 40, 202);
+}
+
+ul{
+    margin-top: 5vh;
+}
+
+.list{
+    list-style: none;
+    color: white;
+}
